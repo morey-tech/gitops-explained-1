@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app
+spec:
+  destination:
+    namespace: my-app
+    name: in-cluster
+  project: default
+  source:
+    path: my-app/
+    repoURL: https://github.com/morey-tech/gitops-explained-1.git
+    targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
