@@ -1,2 +1,2 @@
-# GitOps Explained!
-Episode 1
+# GitOps Explained! Episode 1
+## [Imperative Deployments](./imperative/)
