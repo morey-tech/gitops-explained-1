@@ -51,7 +51,7 @@ The update introduces an invalid image tag because of a typo! You can roll back 
 kubectl rollout undo deployment/my-app
 ```
 
-### Challenges of Imperative Processes
+### Challenges of Imperative Deployments
 Imperative commands do not provide a way to track changes over time. This lack of version control makes it difficult to:
 - **Audit Changes**: There is no built-in history of when a change was made, why it was made, and by whom.
 - **Roll Back**: Reverting to a previous configuration (desired state) requires remembering and re-executing previous commands, which can be error-prone or nearly impossible.
