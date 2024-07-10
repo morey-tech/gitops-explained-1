@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: apps
-    repoURL: https://github.com/morey-tech/argocd-v2.11-examples.git
+    repoURL: https://github.com/morey-tech/gitops-explained-1.git
     targetRevision: main
   # syncPolicy:
   #   automated:
