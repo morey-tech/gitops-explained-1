@@ -4,7 +4,7 @@ Learn about GitOps, an innovative approach to system management that brings clar
 In this, we will look at:
 - Imperative deployments to Kubernetes, and their challenges.
 - Declarative deployments to Kubernetes using manifests.
-- GitOps principals and how they scale declarative deployments.
+- GitOps principles and how they scale declarative deployments.
 
 ## [Imperative Deployments](./imperative/)
 ## [Declarative Deployments](./declarative/)
